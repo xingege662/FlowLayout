@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cx.com.flowlayout.MainActivity">
+
+    <cx.com.flowlayout.FlowLayout
+        android:id="@+id/flowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello,world" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello,PHP"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="where are you!" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="helloview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="生命诚可贵"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="爱情价更高" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="textview" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="view" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello,view" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="hello" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="ye ye ye " />
+        <TextView
+            style="@style/text_flag_01"
+            android:text="go go go" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="the baby" />
+    </cx.com.flowlayout.FlowLayout>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取选中的个数"/>
+    <Button
+        android:id="@+id/btnRm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除选中的item"/>
+
+
+</LinearLayout>
